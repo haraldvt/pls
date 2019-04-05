@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 
 @app.route('/pls')
-def hello():
-    return 'PowerLineSwitching (pls) in aanbouw'
+def pls():
+    return 'PowerLineSwitching (pls)'
 
