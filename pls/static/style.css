@@ -1,0 +1,19 @@
+
+body {
+  font-family: Verdana;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+/*  background-color: DodgerBlue;*/
+    border: solid 1px #eee;
+    border-radius: 8px; /* round corners */
+    box-shadow:0px 2px 3px 3px #000; /* add shadow */  
+}
+
+.flex-container > div {
+/*  background-color: #f1f1f1;*/
+  text-align: center;
+  margin: 10px;
+}

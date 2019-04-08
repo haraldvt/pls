@@ -1,0 +1,19 @@
+<html>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+    <head>
+    </head>
+    <body>
+        <div><img src="static/pls_logo.png"></div>
+        <div><a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+
+
+
+        <div class="flex-container">
+          <div>Date: {{ plscontext.date }}</div>
+          <div>Version: {{ plscontext.version }}</div>
+        </div>
+    </body>
+</html>
+
